@@ -2,7 +2,7 @@ from ultralytics import YOLO
 
 model = YOLO('yolov8n-seg.pt')
 
-num_frames = 24  # or however many frames you have
+num_frames = 24  
 
 for i in range(1, num_frames + 1):
     frame_path = f'frames/frame_{i:04d}.jpg'  # input frames path
