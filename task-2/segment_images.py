@@ -3,7 +3,6 @@ from ultralytics import YOLO
 # Load YOLOv8 segmentation model
 model = YOLO('yolov8n-seg.pt')
 
-# List of image paths (add full paths if needed)
 image_paths = [
     'input_files/image1.jpg',
     'input_files/image2.jpg',
