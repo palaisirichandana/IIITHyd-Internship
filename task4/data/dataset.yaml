@@ -1,0 +1,5 @@
+train: ../dataset/train/images
+valid: ../dataset/valid/images
+
+nc: 4
+names: ['apple', 'banana', 'mango', 'papaya']
